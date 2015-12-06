@@ -46,7 +46,7 @@ public class Titanic {
 	
 	 private static void initCardsPiles(){
 		 ArrayList<PassengerCard> deck = new ArrayList<PassengerCard>();
-		 CardsPoolManager.getCardsPoolManager().dealPassengerCards(deck, 5);
+		 CardsPoolManager.getCardsPoolManager().dealPassengerCards(deck, 25);
 		 //for(PassengerCard card:deck)
 			 //System.out.println(card.toString());
 	 }
